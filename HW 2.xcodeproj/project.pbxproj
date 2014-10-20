@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C410D157190C96C300BCF08B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C410D156190C96C300BCF08B /* main.cpp */; };
+		C410D157190C96C300BCF08B /* mazestack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C410D156190C96C300BCF08B /* mazestack.cpp */; };
 		C410D159190C96C300BCF08B /* HW_2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C410D158190C96C300BCF08B /* HW_2.1 */; };
+		C410D161190C974B00BCF08B /* mazequeue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C410D15F190C974B00BCF08B /* mazequeue.cpp */; };
+		C460FEDF190CAB6E0094BE09 /* eval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C460FEDD190CAB6E0094BE09 /* eval.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,12 @@
 
 /* Begin PBXFileReference section */
 		C410D153190C96C300BCF08B /* HW 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW 2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C410D156190C96C300BCF08B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C410D156190C96C300BCF08B /* mazestack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mazestack.cpp; sourceTree = "<group>"; };
 		C410D158190C96C300BCF08B /* HW_2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HW_2.1; sourceTree = "<group>"; };
+		C410D15F190C974B00BCF08B /* mazequeue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mazequeue.cpp; sourceTree = "<group>"; };
+		C410D160190C974B00BCF08B /* mazequeue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mazequeue.h; sourceTree = "<group>"; };
+		C460FEDD190CAB6E0094BE09 /* eval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eval.cpp; sourceTree = "<group>"; };
+		C460FEDE190CAB6E0094BE09 /* eval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eval.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 		C410D155190C96C300BCF08B /* HW 2 */ = {
 			isa = PBXGroup;
 			children = (
-				C410D156190C96C300BCF08B /* main.cpp */,
+				C410D156190C96C300BCF08B /* mazestack.cpp */,
 				C410D158190C96C300BCF08B /* HW_2.1 */,
+				C410D15F190C974B00BCF08B /* mazequeue.cpp */,
+				C410D160190C974B00BCF08B /* mazequeue.h */,
+				C460FEDD190CAB6E0094BE09 /* eval.cpp */,
+				C460FEDE190CAB6E0094BE09 /* eval.h */,
 			);
 			path = "HW 2";
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C410D157190C96C300BCF08B /* main.cpp in Sources */,
+				C410D161190C974B00BCF08B /* mazequeue.cpp in Sources */,
+				C410D157190C96C300BCF08B /* mazestack.cpp in Sources */,
+				C460FEDF190CAB6E0094BE09 /* eval.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +239,7 @@
 				C410D15E190C96C300BCF08B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
